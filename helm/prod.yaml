@@ -6,3 +6,5 @@ PARAMETERS: "shipping.prod.CART_ENDPOINT,CART_ENDPOINT shipping.prod.DB_HOST,DB_
 schema:
   enabled: true
   DB_TYPE: mysql
+
+replicaCount: 2

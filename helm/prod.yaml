@@ -8,3 +8,11 @@ schema:
   DB_TYPE: mysql
 
 replicaCount: 2
+
+resources:
+  limits:
+    cpu: 2000m
+    memory: 4048Mi
+  requests:
+    cpu: 1600m
+    memory: 3000Mi
